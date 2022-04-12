@@ -64,3 +64,18 @@ searchButton.addEventListener('click', event => {
   }, 3000);
 });
 
+// Pegar idade
+
+function dataNascimento(){
+  var data = document.getElementById("dataNascimento").value
+  data = data.replace(/\//g, "-")
+  var data_array = data.split("-")
+  
+  var dia = data_array[2]
+  var mes = data_array[1]
+  var ano = data_array[0]
+
+  var pokemonData = dia.slice(-1) + mes.slice(-1) + ano.slice(-1)
+
+  startApp(pokemonData)
+}
