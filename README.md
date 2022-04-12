@@ -9,3 +9,16 @@ Nesse projeto consumir a api pokeapi, onde consigo capiturar o nome ou o numero 
 Teste o consumo da API [ApiPokemon](https://devfelipenunes.github.io/ApiPokemon/)
 
 ![video](https://user-images.githubusercontent.com/81275678/158929763-d8f174b4-88ab-48d2-83e8-8bb997407b77.gif)
+
+## Função DataNascimento()
+
+Essa função pega o valor do input do date e divide ele em dia/mes/ano.
+Faz soma do ultimo numero de cada variavel (dia/mes/ano).
+Exemplo - 22/03/1998 seria então 238
+
+Assim fazendo a busca na api do numero na pokedex do pokemon
+
+![videoDois](https://user-images.githubusercontent.com/81275678/162875552-6e2a56f7-0323-49d6-b67d-08f75214b67b.gif)
+
+
+
