@@ -5,15 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="http://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <main class="container">
+    <div class="container">
+
         <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" alt="Pokemon Logo">
+    </div>
+    <section class="container">
+    <h1 class="titulo">Coloque sua data de nascimento e descubra seu pokemon</h1>
+    <input type="date" name="dataNascimento" id="dataNascimento" class="dataNascimento">
+        <button type="button" onclick='dataNascimento()' class="search-button botao-descobrir" >Descobrir</button>
+    </section>
+    <main class="container">
         
         <form action="" class="search">
-            <input type="search" class="search-input" placeholder="Search about a pokemon using name or pokedex number">
-            <button class="search-button">Search</button>
+            <input type="search" class="search-input" placeholder="Digite o nome ou numero da pokedex ">
+            <button class="search-button">Procurar</button>
         </form>
     
         <section class="pokemon">
