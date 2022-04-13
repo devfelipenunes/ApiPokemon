@@ -12,11 +12,11 @@ Teste o consumo da API [ApiPokemon](https://devfelipenunes.github.io/ApiPokemon/
 
 ## Função DataNascimento()
 
-Essa função pega o valor do input do date e divide ele em dia/mes/ano.
+Essa função pega o valor do input do date e separa ele em dia/mes/ano.
 Faz soma do ultimo numero de cada variavel (dia/mes/ano).
 Exemplo - 22/03/1998 seria então 238
 
-````
+```
 function dataNascimento(){
   var data = document.getElementById("dataNascimento").value
   data = data.replace(/\//g, "-")
@@ -30,7 +30,7 @@ function dataNascimento(){
 
   startApp(pokemonData)
 }
-````
+```
 
 Assim fazendo a busca na api do numero na pokedex do pokemon
 
