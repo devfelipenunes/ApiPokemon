@@ -1,8 +1,18 @@
-# PokeAPI
-
+<h1> PokeAPI </h1>
+ 
 ## Consumindo Api de Pokemon
 
-Nesse projeto consumir a api pokeapi, onde consigo capiturar o nome ou o numero do pokemon desejado, e assim retornar o resultado esperado.
+Nesse projeto consumi a api pokeapi, onde consigo capiturar o nome ou o numero do pokemon desejado, e assim retornar o resultado esperado.
+
+### Atualizações 
+
+#### 1.0
+
+> Consumo da API PokeAPI
+
+#### 1.1
+
+> Adicionado função DataNascimento()
 
 ## Site
 
@@ -12,9 +22,9 @@ Teste o consumo da API [ApiPokemon](https://devfelipenunes.github.io/ApiPokemon/
 
 ## Função DataNascimento()
 
-Essa função pega o valor do input do date e separa ele em dia/mes/ano.
-Faz soma do ultimo numero de cada variavel (dia/mes/ano).
-Exemplo - 22/03/1998 seria então 238
+> Essa função pega o valor do input do date e separa ele em dia/mes/ano.
+> Faz soma do ultimo numero de cada variavel (dia/mes/ano).
+> Exemplo - 22/03/1998 seria então 238
 
 ```
 function dataNascimento(){
