@@ -22,9 +22,9 @@ Teste o consumo da API [ApiPokemon](https://devfelipenunes.github.io/ApiPokemon/
 
 ## Função DataNascimento()
 
-> Essa função pega o valor do input do date e separa ele em dia/mes/ano.
-> Faz soma do ultimo numero de cada variavel (dia/mes/ano).
-> Exemplo - 22/03/1998 seria então 238
+> Essa função pega o valor do input do date e separa ele em dia/mes/ano. <br>
+> Faz soma do ultimo numero de cada variavel (dia/mes/ano). <br>
+> Exemplo - 22/03/1998 seria então 238 <br>
 
 ```
 function dataNascimento(){
